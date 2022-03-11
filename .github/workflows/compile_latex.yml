@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build AFU document
-      - uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v2
         with:
           root_file: ./afu_tech.tex
